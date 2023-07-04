@@ -1,0 +1,158 @@
+.transition 
+{
+    
+	width:100px;
+	height:100px;
+	background-color:red;
+	transition:width 0.2s;
+}
+.transition:hover
+{
+	width:300px;
+	background-color:yellow
+}
+.transition-delay 
+{
+    
+	width:100px;
+	height:100px;
+	background-color:red;
+	transition:width 3s;
+    transition-delay:width 10s;
+}
+.transition-delay:hover
+{
+	width:300px;
+	background-color:yellow;
+}
+.transition-duration
+{
+    
+	width:100px;
+	height:100px;
+	background-color:red;
+	transition:height 2s;
+	transition-duration:height 15s;
+}
+.transition-duration:hover 
+{
+	height:400px;
+	background-color:yellow;
+}
+.transition-property
+{
+	width:100px;
+	height:100px;
+	background-color:red;
+	transition:width 1s;
+	transition-property:width,height 4s;
+}
+.transition-property:hover
+{
+	width:300px;
+	height:300px;
+	background-color:yellow;
+}
+.div-1
+{
+	width:100px;
+	height:100px;
+	background-color:red;
+	transition:width 1s;
+	transition-timing-function:ease;
+}
+.div-1:hover
+{
+	width:200px;
+	height:200px;
+	background-color:yellow;
+}
+.div-2
+{
+	width:100px;
+	height:100px;
+	background-color:red;
+	transition:width 1s;
+	transition-timing-function:linear;
+}
+.div-2:hover
+{
+	width:200px;
+	height:200px;
+	background-color:yellow;
+}
+.div-3
+{
+	width:100px;
+	height:100px;
+	background-color:red;
+	transition:width 1s;
+	transition-timing-function:ease-in;
+}
+.div-3:hover
+{
+	width:200px;
+	height:200px;
+	background-color:yellow;
+}
+.div-4
+{
+	width:100px;
+	height:100px;
+	background-color:red;
+	transition:width 1s;
+	transition-timing-function:ease-out;
+}
+.div-4:hover
+{
+	width:200px;
+	height:200px;
+	background-color:yellow;
+}
+.div-5
+{
+	width:100px;
+	height:100px;
+	background-color:red;
+	transition:width 2s;
+	transition-timing-function:ease-in-out;
+}
+.div-5:hover
+{
+	width:200px;
+	height:200px;
+	background-color:yellow;
+}
+.div-6
+{
+	width:100px;
+	height:100px;
+	background-color:red;
+	transition:width 3s;
+	transition-timing-function:cubic-bezier(0.9);
+}
+.div-6:hover
+{
+	width:200px;
+	height:200px;
+	background-color:yellow;
+}
+.div-7
+{
+width:100px;
+height:100px;
+background:red;
+transition:width 3s,height 3s,transform 3s ;
+
+}
+.div-7:hover
+{
+
+	width:300px;
+	height:300px;
+	transform:rotate(360deg);
+}
+	
+	
+	
+	
